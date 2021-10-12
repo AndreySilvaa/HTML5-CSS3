@@ -1,0 +1,44 @@
+main {
+    background-color: rgb(144, 240, 208);
+    padding: 5px;
+    width: 600px;
+    box-shadow: 1px 1px 5px black;
+    text-align: center;
+    margin: auto;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.dadosp {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 15px;
+}
+
+.dadosp input {
+    width: 250px;
+    margin-left: 8px;
+}
+
+hr {
+    width: 550px;
+    height: 2px;
+}
+
+textarea {
+    border: 1px solid black;
+}
+
+button {
+    background-color: rgb(5, 171, 221);
+    border: none;
+    font-size: 19px;
+    margin: 10px;
+    padding: 5px;
+    color: white;
+    border-radius: 8px;
+}
+
+button:hover {
+    opacity: 0.5;
+    transition-duration: 1s;
+}

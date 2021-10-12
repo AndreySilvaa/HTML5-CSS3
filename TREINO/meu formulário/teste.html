@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teste</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        
+    </style>
+</head>
+<body>
+    <main>
+        <form action="">
+            <h1 class="titulo">Cadastro de Desenvolvedores</h1>
+            <div class="campo"><strong>Nome:</strong> 
+                <input type="text" name="nome" id="nome" required> <br></div>
+            <div class="campo"><strong>E-Mail:</strong> 
+                <input type="email" name="email" id="email" required> <br></div>
+            <div class="campo"><strong>Senha:</strong> 
+                <input type="password" name="senha" id="senha" required> <br></div> <br> 
+
+            <label style="font-size: 18px;"><strong>De qual lado da aplicação você desenvolve?</strong></label>
+                    <br> 
+                    <hr>
+                <input type="radio" id="front-end" name="devweb" value="front-end">
+                <label for="front-end">Front-End</label>
+                <input type="radio" id="back-end" name="devweb" value="back-end">
+                <label for="back-end">Back-End</label>
+                <input type="radio" id="fullstack" name="devweb" value="fullstack">
+                <label for="fullstack">Fullstack</label> 
+                    <hr>
+
+            <div class="textarea">
+                <label for="experiencia"><strong>Conte um pouco da sua experiência:</strong></label> <br>
+                <textarea style="width: 44em;" name="experiencia" id="experiencia" cols="30" rows="10"></textarea>
+            </div>
+
+            <button class="botao" type="submit">Concluido</button>
+            
+        </form>
+
+        
+    </main>
+
+
+
+    
+</body>
+</html>

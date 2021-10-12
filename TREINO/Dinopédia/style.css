@@ -1,0 +1,60 @@
+body {
+    margin: 0; background-image: linear-gradient(to bottom, white 70%, #f7fdce); background-attachment: fixed;
+}
+
+hr {
+    height: 2px;
+}
+
+.foto {
+    border-radius: 3px; box-shadow: 2px 2px 5px rgb(39, 38, 38);
+}
+
+p {
+    text-align: justify; text-indent: 10px;
+}
+
+.campo {
+    text-align: center;
+}
+
+.dinos {
+    margin-left: 5px;
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    width: 20%;
+    background-color: #f1f1f1;
+    height: 100%;
+    position: fixed; /* Faça-o grudar, mesmo na rolagem */
+    overflow: auto; /* Habilite a rolagem se o sidenav tiver muito conteúdo */
+    border: 1px solid rgb(22, 22, 22);
+
+}
+
+li a {
+    display: block;
+    color: #000;
+    text-decoration: none;
+    padding: 8px 16px;
+}
+
+li:last-child {
+    border: none;
+}
+
+li a.ativo {
+    background-color: #4CAF50;
+    color: white;
+}
+
+li a:hover:not(.ativo) {
+    background-color: #555;
+    color: white;
+}

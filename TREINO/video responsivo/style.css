@@ -1,0 +1,11 @@
+div.video {
+    position: relative;
+    margin: auto;
+    max-width: 680px;
+}
+
+div.video > iframe {
+    position: absolute;
+    margin: auto;
+    width: 100%;
+}

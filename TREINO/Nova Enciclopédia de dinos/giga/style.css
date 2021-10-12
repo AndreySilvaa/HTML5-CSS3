@@ -1,0 +1,48 @@
+@charset "UFT-8";
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: linear-gradient(to bottom, ghostwhite, #d6cb9a );
+}
+ main {
+    background-color: ghostwhite;
+    margin: auto;
+    width: 800px;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px black;
+ } 
+ 
+h1 {
+    text-align: center;
+}
+
+.foto {
+    text-align: center;
+}
+
+p {
+    text-align: justify;
+    text-indent: 15px;
+}
+
+div {
+    display: unset;
+    background-color: rgb(255, 249, 194);
+    border: 1px solid black;
+    text-align: center;
+    width: 30px;
+    height: 25px;
+    font-size: 20px;
+}
+
+div > p {
+    display: none;
+}
+
+div:hover > p {
+    display: table-cell;
+}
+a:visited {
+    color: red;
+}

@@ -1,0 +1,33 @@
+@charset "UTF-8";
+
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    /*height: 100%*/
+}
+
+body {
+    background-image: linear-gradient(to right, #FFFFF4, #FCE196); 
+}
+
+main {
+    background-color: ghostwhite;
+    border-radius: 10px;  /*Adiciona cantos arredondados */
+    box-shadow: 5px 5px 15px #aa98659a;  /* Coloca sombras */
+    width: 600px;  /* Estabelece a largura */
+    padding: 10px; /* Define o preenchimento para todos os quatro lados de um elemento <p> */
+    margin: auto;  /* Cria uma margem */
+}
+
+h1 {
+    color: #7F807A;
+    text-align: center;
+    text-shadow: 1px 1px 2px #62635e8f; /* deslocamento lateral, deslocamento para baixo e espalhamento */ 
+}
+
+h2 {
+    color: #7E8054;
+}
+
+p {
+    text-align: justify;
+}

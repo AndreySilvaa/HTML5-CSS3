@@ -1,0 +1,139 @@
+body {
+    margin: 0;
+}
+
+header {
+    width: 100%;
+    height: 180px;
+    background-image: linear-gradient(to bottom, #3CD983, #247F4C );
+    top: 0;
+    color: ghostwhite;
+}
+
+nav {
+    width: 100%;
+    height: 30px;
+    background-color: #247F4C;
+    top: 0;
+}
+
+.titulo {
+    margin: 0;
+    
+}
+
+header > h1, p {
+    text-align: center;
+    padding: 10px;
+}
+
+ul {
+    display: table-row;
+    list-style-type: none;
+    margin: 0;
+    height: 20px;
+}
+
+.navegação {
+    float: left;
+    display: block;
+    font-size: 23px;
+    text-decoration: none;
+    width: 150px;
+    text-align: center;
+}
+
+#pesquisa {
+    text-decoration: none;
+    color: ghostwhite;
+    display: block;
+    margin-left: 20px;
+}
+
+#pesquisa:hover {
+    background-color: #3CD983;
+}
+
+article {
+    background-color: #84E1AD;
+    top: 0;
+}
+
+section {
+    background-color: white;
+    width: 800px;
+    margin: auto;
+    padding: 10px;
+}
+
+section > p {
+    text-align: justify;
+    text-indent: 15px;
+}
+
+div > p {
+    text-align: justify;
+    text-indent: 15px;
+}
+
+.video {
+    background-color: darkgreen;
+}
+
+.aprendermais {
+    margin: auto;
+    background-color: #2FA866;
+    color: ghostwhite;
+    width: 730px;
+    height: 20px;
+    padding: 10px;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+
+.androids {
+    margin: auto;
+    background-color: #C5EBD6;
+    width: 730px;
+    height: 250px;
+    padding: 10px;
+}
+
+.Vdroids {
+    float: left;
+}
+
+ol {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+abbr {
+    text-decoration: none
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.fim {
+    margin: auto;
+    background-color: #C5EBD6;
+    width: 730px;
+    height: 130px;
+    padding: 10px;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
+
+footer {
+    background-color: rgb(1, 59, 1);
+    color: ghostwhite;
+    text-align: center;
+}

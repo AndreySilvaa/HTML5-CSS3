@@ -1,0 +1,32 @@
+header {
+    font: normal 30px arial; text-align: center; margin: 0px auto 30px auto; background-color: rgb(61, 59, 59);
+    padding: 5px; top: 0; position: sticky; padding: 20px 0px 20px 0px; color: white;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.438);
+}
+
+article {
+    height: 1200px; background-color: whitesmoke; padding: 5px 5px 5px 5px; width: 1000px; margin: auto;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.438);
+}
+
+section {
+    width: 800px; text-align: justify; background-color: rgb(224, 219, 219); padding: 5px 8px 8px 5px;
+    margin: 0px auto 50px auto; box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.438);
+}
+
+footer {
+    background-color: rgb(46, 44, 44); color: white; padding: 5px; width: 1000px; margin: auto; 
+    text-align: center; box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.438);
+}
+
+footer > a {
+    text-decoration: none; color: yellowgreen; margin-left: 15px;
+}
+
+footer > a:hover {
+    color: red;
+}
+
+h3 {
+    text-align: center;
+}

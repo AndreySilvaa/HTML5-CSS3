@@ -1,0 +1,42 @@
+* {
+    padding-top: 0.5%;
+}
+
+body {
+    background-image: linear-gradient(to bottom, white, #d3eeff );
+    background-attachment: fixed;
+}
+
+main {
+    background-color: ghostwhite;
+    margin: auto;
+    width: 600px;
+    height: 450px;
+    padding: 10px;
+    box-shadow: 5px 5px 10px black;
+    border-radius: 10px;
+}
+
+h1 {
+    text-align: center;
+}
+
+.campo {
+    margin-bottom: 4%;
+    display: table-cell;
+    font-family: sans-serif;
+}
+
+.textarea {
+    margin-top: 2%;
+    font-family: sans-serif;
+}
+
+.botao {
+    margin-left: 42%;
+    margin-top: 1.5%;
+    font-size: 1em;
+    box-shadow: 1px 1px 1px rgb(20, 20, 20);
+    color: #000000;
+}
+

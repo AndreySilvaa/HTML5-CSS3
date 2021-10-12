@@ -1,0 +1,30 @@
+body {
+    margin: 0;
+    height: 1000px;
+}
+
+nav {
+    display: flex;
+    text-align: center;
+    background-color: darkgreen;
+    justify-content: center;
+    padding: 10px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.63);
+    position: fixed;
+    width: 100%;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    background-color: darkgreen;
+    padding: 15px;
+    transition-duration: 0.5s;
+    border-radius: 20px;
+    margin-right: 10px;
+}
+
+a:hover {
+    background-color: yellowgreen;
+    transform: rotate(360deg);
+}
